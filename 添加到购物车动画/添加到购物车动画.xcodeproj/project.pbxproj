@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F054C85C1E5E7EBA00D0BCF7 /* sssTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F054C85B1E5E7EBA00D0BCF7 /* sssTableViewCell.m */; };
 		F05D66151DB465D900E48A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F05D66141DB465D900E48A85 /* main.m */; };
 		F05D66181DB465D900E48A85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F05D66171DB465D900E48A85 /* AppDelegate.m */; };
 		F05D661B1DB465D900E48A85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05D661A1DB465D900E48A85 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F054C85A1E5E7EBA00D0BCF7 /* sssTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sssTableViewCell.h; sourceTree = "<group>"; };
+		F054C85B1E5E7EBA00D0BCF7 /* sssTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sssTableViewCell.m; sourceTree = "<group>"; };
 		F05D66101DB465D900E48A85 /* 添加到购物车动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "添加到购物车动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05D66141DB465D900E48A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F05D66161DB465D900E48A85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				F05D66211DB465D900E48A85 /* LaunchScreen.storyboard */,
 				F05D66241DB465D900E48A85 /* Info.plist */,
 				F05D66131DB465D900E48A85 /* Supporting Files */,
+				F054C85A1E5E7EBA00D0BCF7 /* sssTableViewCell.h */,
+				F054C85B1E5E7EBA00D0BCF7 /* sssTableViewCell.m */,
 			);
 			path = "添加到购物车动画";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F05D661B1DB465D900E48A85 /* ViewController.m in Sources */,
+				F054C85C1E5E7EBA00D0BCF7 /* sssTableViewCell.m in Sources */,
 				F05D66181DB465D900E48A85 /* AppDelegate.m in Sources */,
 				F05D66151DB465D900E48A85 /* main.m in Sources */,
 			);
@@ -307,6 +313,7 @@
 				F05D66291DB465D900E48A85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
